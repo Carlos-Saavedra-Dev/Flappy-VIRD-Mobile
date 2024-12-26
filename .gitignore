@@ -1,0 +1,96 @@
+# Unity generated files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# Never ignore Asset meta data (essential for Unity to maintain references)
+![Aa]ssets/**/*.meta
+
+# Ignore specific file types and temporary files
+*.pidb
+*.pdb
+*.mdb
+*.tmp
+*.bak
+*.log
+*.stacktrace
+*.shadercache
+*.svd
+
+# Ignore IDE-specific files
+.vs/
+.vscode/
+*.csproj
+*.suo
+*.sln
+*.user
+*.unityproj
+*.booproj
+*.opendb
+*.VC.db
+*.pidb.meta
+
+# Unity Crash Reports
+sysinfo.txt
+
+# Unity Builds
+*.apk
+*.aab
+*.app
+*.unitypackage
+*.exe
+*.zip
+
+# Unity Addressables
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Temporary auto-generated Android Assets
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Unity Recordings
+/[Aa]ssets/[Rr]ecordings/
+
+# Memory captures
+/[Mm]emoryCaptures/
+
+# Unity Asset Bundles
+/[Aa]ssetBundles/
+
+# Unity Collaborate/Plastic SCM files
+.collab/
+.plastic/
+
+# OS-generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# Gradle Cache
+.gradle/
+
+# Exclude temporary and backup files inside Assets folder
+[Aa]ssets/**/*.bak
+[Aa]ssets/**/*.swp
+[Aa]ssets/**/*.tmp
+
+# Ensure critical Unity files are tracked
+![Aa]ssets/**/*.unity
+![Aa]ssets/**/*.prefab
+![Aa]ssets/**/*.mat
+![Aa]ssets/**/*.asset
+![Aa]ssets/**/*.controller
+![Aa]ssets/**/*.anim
+![Aa]ssets/**/*.overrideController
+
+# Optional: Exclude user-specific preferences (if multi-user setup)
+*.userprefs
